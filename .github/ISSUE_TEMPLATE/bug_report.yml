@@ -1,0 +1,31 @@
+name: Bug Report 🐛
+description: Report a bug for this project
+title: "[BUG]: "
+labels: bug
+assignees: zS1L3NT
+body:
+  - type: markdown
+    attributes:
+      value: Before submissing your issue, please make that the issue has not already been submitted by someone else.
+  - type: textarea
+    attributes:
+      label: Please describe the current behaviour of the code.
+      description: A clear and concise description of the incorrect behaviour of the code.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please describe the expected behaviour of the code.
+      description: A clear and concise description of the expected behaviour of the code.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What are the steps to reproduce the error?
+      description: A clear and concise description of how the developer can reproduce this error.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any additional information like logs, screenshots or anything that could help with resolving the issue.

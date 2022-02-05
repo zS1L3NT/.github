@@ -1,0 +1,22 @@
+name: Feature Request ✨
+description: Suggest an idea for this project
+title: "[FEATURE]: "
+labels: feature
+body:
+  - type: markdown
+    attributes:
+      value: Before submissing your feature request, please make that this feature request has not already been submitted by someone else
+  - type: textarea
+    attributes:
+      label: Is this feature request related to a problem? If so, please elaborate
+      description: A clear and concise description of the problem
+  - type: textarea
+    attributes:
+      label: Tell me about the feature you are requesting!
+      description: A clear and concise description of the feature you are requesting for
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any additional information like that could help with implementing the requested feature.
